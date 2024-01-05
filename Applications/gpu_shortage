@@ -1,0 +1,48 @@
+As compute-hungry generative AI shows no signs of slowing down, which companies are getting access to Nvidia’s hard-to-come-by, ultra-expensive, high-performance computing H100 GPU for large language model (LLM) training is becoming the “top gossip” of Silicon Valley, according to Andrej Karpathy, former director of AI at Tesla and now at OpenAI.
+
+Karpathy’s comments come at a moment where issues related to GPU access are even being discussed in big tech annual reports: In Microsoft’s annual report released last week, the company emphasized to investors that GPUs are a “critical raw material for its fast-growing cloud business” and added language about GPUs to a “risk factor for outages that can arise if it can’t get the infrastructure it needs.”
+
+Karpathy took to the social network X (formerly Twitter) to re-share a widely circulated blog post thought to be authored by a poster on Hacker News that speculates “the capacity of large scale H100 clusters at small and large cloud providers is running out,” and that H100 demand will continue its trend till the end of 2024, at a minimum.
+
+The author guesses that OpenAI might want 50,000 H100s, while Inflection wants 22,000, Meta “maybe 25k,” while “big clouds might want 30k each (Azure, Google Cloud, AWS, plus Oracle). Lambda and CoreWeave and the other private clouds might want 100k total. Anthropic, Helsing, Mistral and Character might want 10k each, he wrote.
+
+The author said that these estimates are “total ballparks and guessing, and some of that is double-counting both the cloud and the end customer who will rent from the cloud. But that gets to about 432k H100s. At approx $35K a piece, that’s about $15B worth of GPUs. That also excludes Chinese companies like ByteDance (TikTok), Baidu and Tencent who will want a lot of H800s. There are also financial companies each doing deployments starting with hundreds of A100s or H100s and going to thousands of A/H100s: names like Jane Street, JP Morgan, Two Sigma, Citadel.”
+
+Demand for GPUs is like ‘Game of Thrones,’ says one VC
+The closest analogy to the battle to get access to AI chips is the television hit ‘Game of Thrones,’ David Katz, partner at Radical Ventures, told VentureBeat recently. “There’s this insatiable appetite for compute that’s required in order to run these models and large models,” he said.
+
+Last year, Radical invested in CentML, which optimizes machine learning (ML) models to work faster and lower compute costs. CentML’s offering, he said, creates “a little bit more efficiency” in the market. In addition, it demonstrates that complex, billion-plus-parameter models can also run on legacy hardware.
+
+“So you don’t need the same volume of GPUs, or you don’t need the A100s necessarily,” he said. “From that perspective, it is essentially increasing the capacity or the supply of chips in the market.”
+
+However, those efforts may be more effective for those working on AI inference, rather than training LLMs from scratch, according to Sid Sheth, CEO of d-Matrix, which is building a platform to save money on inference by doing more processing in the computer’s memory, rather than on a GPU.
+
+“The problem with inference is if the workload spikes very rapidly, which is what happened to ChatGPT, it went to like a million users in five days,” he told CNBC recently. “There is no way your GPU capacity can keep up with that because it was not built for that. It was built for training, for graphics acceleration.”
+
+GPUs are a must for LLM training
+For LLM training — which all the big labs including OpenAI, Anthropic, DeepMind, Google and now Elon Musk’s X.ai are doing now — there is no substitute for Nvidia’s H100.
+
+That has been good news for cloud startups like CoreWeave, which is poised to make billions from their GPU cloud, and the fact that Nvidia is providing plenty of GPUs because CoreWeave isn’t building its own AI chips to compete.
+
+McBee told VentureBeat that CoreWeave did $30 million in revenue last year, will score $500 million this year and has nearly $2 billion already contracted for next year. CNBC reported in June that Microsoft “has agreed to spend potentially billions of dollars over multiple years on cloud computing infrastructure from startup CoreWeave.”
+
+“It’s happening very, very quickly,” he said. “We have a massive backlog of client demand we’re trying to build for. We’re also building at 12 different data centers right now. I’m engaged in something like one of the largest builds of this infrastructure on the planet today, at a company that you had never heard of three months ago.”
+
+
+He added that the adoption curve of AI is “the deepest, fastest-pace adoption of any software that’s ever come to market,” and the necessary infrastructure for the specific type of compute required to train these models can’t keep pace.
+
+But CoreWeave is trying: “We’ve had this next generation H100 compute in the hands of the world’s leading AI labs since April,” he said. “You’re not going to be able to get it from Google until Q4. I think Amazon’s … scheduled appointment isn’t until Q4.”
+
+CoreWeave, he says, is helping Nvidia get its product to market faster and “helping our customers extract more performance out of it because we build it in a better configuration than the hyperscalers — that’s driven [Nvidia to make] an investment in us, it’s the only cloud service provider investment that they’ve ever made.”
+
+
+
+For Nvidia’s part, one executive says the issue is not so much a GPU shortage, but how those GPUs get to market.
+
+Charlie Boyle, VP and GM of Nvidia’s DGX Systems — a line of servers and workstations built by Nvidia which can run large, demanding ML and deep learning workloads on GPUs — says Nvidia is “building plenty,” but says a lot of the shortage issue among cloud providers comes down to what has already been pre-sold to customers.
+
+“On the system side, we’ve always been very supply-responsive to our customers,” he told VentureBeat in a recent interview. A request for thousands of GPUs will take longer, he explained, but “we service a lot of that demand.”
+
+Something he has learned over the past seven years is that ultimately, it is also a supply chain problem, he explained — because there are small components provided by vendors that can be harder to come by. “So when people use the word GPU shortage, they’re really talking about a shortage of, or a backlog of, some component on the board, not the GPU itself,” he said. “It’s just limited worldwide manufacturing of these things…but we forecast what people want and what the world can build.”
+
+Boyle said that over time the “GPU shortage” issue will “work its way out of narrative, in terms of the hype around the shortage versus the reality that somebody did bad planning.”
