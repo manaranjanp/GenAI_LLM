@@ -1,6 +1,6 @@
 This folder contains notebooks and datasets for bulding RAG using LLMs....
 
-## RAG with Single Document
+## Retrieval Augmented Generation (RAG)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaranjanp/GenAI_LLM/blob/main/RAG/RAG_Infosys_quarterly_report.ipynb)
 
@@ -8,7 +8,7 @@ This folder contains notebooks and datasets for bulding RAG using LLMs....
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaranjanp/GenAI_LLM/blob/main/RAG/RAG_Infosys_quarterly_reports_multiple.ipynb)
 
-## Advanced RAG
+## Advanced RAG with Query Expansion and Reranking
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaranjanp/GenAI_LLM/blob/main/RAG/RAG_Advanced_v2.ipynb)
 
