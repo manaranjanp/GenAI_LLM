@@ -17,3 +17,6 @@ This folder contains notebooks and datasets for bulding applications using LLMs.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaranjanp/GenAI_LLM/blob/main/Applications/Stock%20Analysis%202.0.ipynb)
 
+## EDA Using LLMs 
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manaranjanp/GenAI_LLM/blob/main/Applications/LLM_Powered_EDA_using_Langchain_v1.ipynb)
